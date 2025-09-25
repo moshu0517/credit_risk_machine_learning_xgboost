@@ -14,8 +14,8 @@ env/
 # VS Code
 .vscode/
 
-# Data files (do not upload large local data)
-data/
-*.csv
-*.xls
-*.xlsx
+# Data folder: ignore everything by default
+data/*
+
+# But keep this specific CSV dataset
+!data/processd_default_credit_card_clients.csv
